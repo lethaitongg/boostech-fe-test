@@ -1,0 +1,11 @@
+<app-button-icon
+	size="45px"
+	[color]="color"
+	[icon]="icon"
+>
+	<app-badge
+		*ngIf="badge > 0"
+		ngProjectAs="badge"
+		[content]="badge"
+	></app-badge>
+</app-button-icon>

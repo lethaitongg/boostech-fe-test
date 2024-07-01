@@ -1,0 +1,15 @@
+<div class="home-item-list">
+	<app-item-grid
+		[columns]="4"
+		columnWidth="160px"
+		width="100%"
+	>
+		<app-item
+			ngProjectAs="item-list"
+			*ngFor="let item of items"
+			[item]="item"
+			width="160px"
+			height="200px"
+		></app-item>
+	</app-item-grid>
+</div>

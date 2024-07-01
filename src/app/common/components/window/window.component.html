@@ -1,0 +1,12 @@
+<mat-card
+	appearance="outlined"
+	class="app-window"
+	[style]="style"
+>
+	<mat-card-title class="app-window-navigate-bar">
+		<div class="app-window-title">{{ windowTitle }}</div>
+	</mat-card-title>
+	<mat-card-content class="!px-0 !pb-[40px] overflow-y-hidden">
+		<ng-content></ng-content>
+	</mat-card-content>
+</mat-card>

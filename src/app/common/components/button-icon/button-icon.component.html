@@ -1,0 +1,12 @@
+<button
+	type="button"
+	matRipple
+	matRippleColor="rgba(255, 255, 255, 0.1)"
+	[style]="style"
+	[class]="hovering ? 'mat-elevation-z6' : 'mat-elevation-z4'"
+	(mouseleave)="hovering = false"
+	(mouseenter)="hovering = true"
+>
+	<mat-icon [svgIcon]="icon"></mat-icon>
+	<ng-content select="badge"></ng-content>
+</button>

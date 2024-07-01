@@ -1,0 +1,14 @@
+<mat-card
+	class="app-window-item"
+	[style]="style"
+>
+	<mat-card-content class="!p-0">
+		<div class="app-window-item-logo">
+			<img
+				mat-card-image
+				[src]="item.imageUrl"
+			/>
+		</div>
+	</mat-card-content>
+	<mat-card-footer class="app-window-item-title">{{ item.name }}</mat-card-footer>
+</mat-card>

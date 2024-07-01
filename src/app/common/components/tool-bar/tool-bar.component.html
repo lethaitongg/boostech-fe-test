@@ -1,0 +1,10 @@
+<mat-card
+	class="app-toolbar"
+	appearance="outlined"
+	[style]="style"
+>
+	<mat-card-actions class="app-toolbar-content">
+		<ng-content select="feature"></ng-content>
+		<ng-content select="util"></ng-content>
+	</mat-card-actions>
+</mat-card>
