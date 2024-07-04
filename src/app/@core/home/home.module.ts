@@ -9,7 +9,6 @@ import { ItemGridComponent } from "../../common/components/item-grid/item-grid.c
 import { ItemComponent } from "../../common/components/item/item.component";
 import { HomeTabBarComponent } from "./home-tab-bar/home-tab-bar.component";
 import { HomeWindowComponent } from "./home-window/home-window.component";
-import { HomeToolBarComponent } from "./home-tool-bar/home-tool-bar.component";
 import { HoverElevationDirective } from "../../common/directives/hover-elevation.directive";
 import { TabBarItemComponent } from "../../common/components/tab-bar-item/tab-bar-item.component";
 import { HomeToolBarModule } from "./home-tool-bar/home-tool-bar.module";

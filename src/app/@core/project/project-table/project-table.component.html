@@ -1,0 +1,16 @@
+<div
+	class="mat-elevation-z8"
+	*ngIf="projectPagination"
+>
+	<app-table
+		[displayedColumns]="displayedColumns"
+		[items]="projectPagination.data"
+		(sortChangeEmmiter)="handleSort($event)"
+	>
+	</app-table>
+	<app-paginator
+		[paginatorDetails]="projectPagination.details"
+		[paginatorNumbers]="paginatorNumbers"
+		(changePaginationDataEmitter)="changePaginatorData($event)"
+	></app-paginator>
+</div>

@@ -10,7 +10,7 @@ import { Item } from "../../../common/components/item/item.type";
 	providers: [ItemService],
 })
 export class HomeItemListComponent {
-	items: Item[] = [];
+	items: readonly Item[] = [];
 
 	constructor(private readonly _itemService: ItemService) {
 		this.items = this._itemService.getAllItems();
